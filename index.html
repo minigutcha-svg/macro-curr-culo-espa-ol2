@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Macrocurriculo de Español</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macro Currículo: Lengua Castellana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        /* Estilos para el efecto FLIP CARD */
+        .card-container {
+            perspective: 1000px; /* Establece el contexto 3D */
+            height: 100%;
+            cursor: pointer;
+        }
+        .card-flipper {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        /* Estado girado */
+        .card-container.is-flipped .card-flipper {
+            transform: rotateY(180deg);
+        }
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden; /* Oculta el reverso */
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1.5rem; /* Más padding para estética */
+            min-height: 150px; /* Asegura una altura mínima */
+            border-radius: 0.75rem; /* Bordes más redondeados */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06); /* Sombra sutil */
+        }
+        .card-back {
+            transform: rotateY(180deg); /* La parte de atrás inicia girada */
+            background-color: theme('colors.yellow.100');
+            border: 2px solid theme('colors.yellow.400');
+        }
+        .card-front {
+            background-color: theme('colors.yellow.50');
+            border: 2px solid theme('colors.yellow.200');
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
+    <div class="w-full max-w-7xl mx-auto bg-white rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12">
+
+        <!-- Título Principal y Misión/Visión -->
+        <header class="text-center mb-10 md:mb-16 border-b pb-10">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 tracking-tight">MACRO CURRÍCULO LENGUA CASTELLANA</h1>
+            <p class="mt-2 text-lg sm:text-xl text-gray-600">IED EVELYN ABUCHAIBE DE DAES</p>
+            
+            <div class="mt-8 text-left max-w-5xl mx-auto">
+                <div class="mt-8">
+                    <h2 class="font-semibold text-teal-800 text-xl mb-3 text-center">Misión del Departamento</h2>
+                    <p class="text-gray-700 text-center italic">"PORQUE la misión institucional nos encarga desarrollar autonomía, pensamiento crítico y la capacidad de crear soluciones sostenibles a retos locales y globales, EL DEPARTAMENTO DE Lengua Castellana desarrolla la competencia comunicativa experta en la lengua materna, PARA que los estudiantes usen el lenguaje como una herramienta de precisión para investigar, construir argumentos, colaborar y liderar proyectos de impacto en su comunidad".</p>
+                </div>
+
+                <div class="mt-12 mb-20"> <!-- Aumentado margen inferior para dar espacio a la siguiente sección -->
+                    <h2 class="font-semibold text-yellow-800 text-xl mb-6 text-center">Visión de la Disciplina: ¿Por Qué el Lenguaje? 💡</h2>
+                    <!-- Añadido min-h-[250px] para asegurar espacio vertical -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center min-h-[250px]">
+                        
+                        <!-- Tarjeta 1: Dar Poder -->
+                        <div class="card-container col-span-1" onclick="this.classList.toggle('is-flipped')">
+                            <div class="card-flipper">
+                                <!-- Lado Frontal -->
+                                <div class="card-front">
+                                    <svg class="h-10 w-10 text-yellow-600 mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/></svg>
+                                    <h3 class="font-bold text-yellow-900 text-xl">Dar Poder</h3>
+                                    <p class="text-xs text-gray-600 mt-2 italic font-medium">Haz clic para descubrir la visión</p>
+                                </div>
+                                <!-- Lado Trasero -->
+                                <div class="card-back">
+                                    <p class="text-sm text-gray-700 font-medium mt-1">El lenguaje se convierte en su herramienta para **pensar, cuestionar y construir sentido**, para expresar su voz con claridad, empatía y propósito.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta 2: Inspirar -->
+                        <div class="card-container col-span-1" onclick="this.classList.toggle('is-flipped')">
+                            <div class="card-flipper">
+                                <!-- Lado Frontal -->
+                                <div class="card-front">
+                                   <svg class="h-10 w-10 text-yellow-600 mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                                   <h3 class="font-bold text-yellow-900 text-xl">Inspirar</h3>
+                                   <p class="text-xs text-gray-600 mt-2 italic font-medium">Haz clic para descubrir la visión</p>
+                                </div>
+                                <!-- Lado Trasero -->
+                                <div class="card-back">
+                                    <p class="text-sm text-gray-700 font-medium mt-1">Les inspira al revelar cómo las **palabras, las historias y los discursos** moldean nuestra comprensión de nosotros mismos, de los demás y de la sociedad.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta 3: Formar a Futuro -->
+                        <div class="card-container col-span-1" onclick="this.classList.toggle('is-flipped')">
+                            <div class="card-flipper">
+                                <!-- Lado Frontal -->
+                                <div class="card-front">
+                                    <svg class="h-10 w-10 text-yellow-600 mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01M12 6v-1m0-1V4m0 2.01V8m0 0h.01M12 5h.01M12 5h-.01M12 8h.01M12 8h-.01M12 5h.01M12 5h-.01" /></svg>
+                                    <h3 class="font-bold text-yellow-900 text-xl">Formar a Futuro</h3>
+                                    <p class="text-xs text-gray-600 mt-2 italic font-medium">Haz clic para descubrir la visión</p>
+                                </div>
+                                <!-- Lado Trasero -->
+                                <div class="card-back">
+                                    <p class="text-sm text-gray-700 font-medium mt-1">Esperamos que continúen **leyendo el mundo con mirada crítica y sensible**, comunicándose con rigor y respeto, y usando su voz para defender la verdad, la justicia y la dignidad humana.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta 4: Transformar con Ética -->
+                        <div class="card-container col-span-1" onclick="this.classList.toggle('is-flipped')">
+                            <div class="card-flipper">
+                                <!-- Lado Frontal -->
+                                <div class="card-front">
+                                    <svg class="h-10 w-10 text-yellow-600 mx-auto mb-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" > <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /> </svg>
+                                    <h3 class="font-bold text-yellow-900 text-xl">Transformar con Ética</h3>
+                                    <p class="text-xs text-gray-600 mt-2 italic font-medium">Haz clic para descubrir la visión</p>
+                                </div>
+                                <!-- Lado Trasero -->
+                                <div class="card-back">
+                                    <p class="text-sm text-gray-700 font-medium mt-1">Les invita a usar el lenguaje como **fuerza creadora y responsable**, consciente de que toda palabra tiene impacto ético y potencial para la transformación.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Sección de los 3 Lentes -->
+        <div class="mt-20 mb-12 md:mb-20"> <!-- Margen superior ajustado para la separación -->
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 text-center mb-10">Lentes Conceptuales</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Lente 1: La Lupa -->
+                <div class="bg-blue-50 border-2 border-blue-200 rounded-xl p-6 text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex justify-center mb-4">
+                        <svg class="h-16 w-16 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </div>
+                    <h2 class="text-2xl font-bold text-blue-800 mb-2">La Lupa 🔎</h2>
+                    <h3 class="text-lg font-semibold text-blue-700 mb-4">Construcción de Significado</h3>
+                    <p class="text-gray-700">Nos permite mirar **DENTRO** del texto para analizar las elecciones del autor (palabras, estructura, imágenes) y entender **CÓMO** funciona el mensaje.</p>
+                </div>
+    
+                <!-- Lente 2: La Brújula -->
+                <div class="bg-green-50 border-2 border-green-200 rounded-xl p-6 text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex justify-center mb-4">
+                        <svg class="h-16 w-16 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m0 13.5V21M3.75 12H6m12 0h2.25M5.106 5.106l1.768 1.768m10.26 10.26 1.768 1.768M5.106 18.894l1.768-1.768m10.26-10.26 1.768-1.768" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m15 12-3 9-3-9 3-9 3 9Z" />
+                        </svg>
+                    </div>
+                    <h2 class="text-2xl font-bold text-green-800 mb-2">La Brújula 🧭</h2>
+                    <h3 class="text-lg font-semibold text-green-700 mb-4">Propósito y Audiencia</h3>
+                    <p class="text-gray-700">Nos ayuda a orientar la comunicación y mirar **HACIA ADELANTE**, definiendo **PARA QUÉ** creamos un mensaje y **PARA QUIÉN** es, adaptándolo para ser efectivo.</p>
+                </div>
+    
+                <!-- Lente 3: El Mapa -->
+                <div class="bg-yellow-50 border-2 border-yellow-200 rounded-xl p-6 text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex justify-center mb-4">
+                           <svg class="h-16 w-16 text-yellow-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503-6.998 4.277-1.948a.75.75 0 0 1 .966.966l-1.948 4.277M6.75 18.25h8.25a.75.75 0 0 0 .75-.75V9a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v8.5c0 .414.336.75.75.75Z" />
+                            </svg>
+                    </div>
+                    <h2 class="text-2xl font-bold text-yellow-800 mb-2">El Mapa 🗺️</h2>
+                    <h3 class="text-lg font-semibold text-yellow-700 mb-4">Contexto e Interpretación</h3>
+                    <p class="text-gray-700">Nos permite ver el panorama completo, mirando **ALREDEDOR** del texto para entender cómo la cultura, la época, el lugar y las perspectivas influyen en **QUÉ** significa.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección de Alineación con el MEN -->
+        <div class="bg-gray-100 rounded-xl p-8 mb-12 md:mb-20">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-800 text-center mb-6">El Puente: Estándares y Lentes</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6 text-center mb-8">
+                <div class="flex-1">
+                    <h3 class="text-xl font-semibold text-gray-700">Estándares (Learning Intentions) = El "QUÉ"</h3>
+                    <p class="text-gray-600 mt-2">Son las competencias que debemos lograr. <br> **Son el destino.**</p>
+                </div>
+                <div class="text-3xl font-bold text-blue-500 mx-4">🔗</div>
+                <div class="flex-1">
+                    <h3 class="text-xl font-semibold text-gray-700">Lentes Conceptuales = El "CÓMO PENSAMOS"</h3>
+                    <p class="text-gray-600 mt-2">Son el marco de pensamiento para lograr esas competencias. <br> **Son la forma de navegar.**</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-300 pt-8 mt-8">
+                <h3 class="text-xl font-semibold text-gray-700 text-center mb-4">Ejemplo Práctico: Aplicando los Lentes</h3>
+                <p class="text-center text-gray-600 mb-6">Para lograr un estándar como **"producir un texto argumentativo"**, un estudiante debe pensar a través de los lentes:</p>
+                <div class="space-y-4 max-w-2xl mx-auto text-left">
+                    <p><span class="font-bold text-green-700">1. Brújula (Propósito y Audiencia):</span> Primero, define su propósito (¿convencer?) y su audiencia (¿compañeros, directivos?).</p>
+                    <p><span class="font-bold text-blue-700">2. Lupa (Construcción de Significado):</span> Luego, toma decisiones sobre la estructura, la evidencia que usará y las palabras más persuasivas.</p>
+                    <p><span class="font-bold text-yellow-700">3. Mapa (Contexto e Interpretación):</span> Finalmente, considera qué sabe su audiencia y qué posibles objeciones podrían tener (contraargumentos).</p>
+                </div>
+                <p class="text-center text-gray-800 mt-6 font-semibold italic">En resumen, los estándares son el destino y los lentes son la forma experta de navegar para llegar a él.</p>
+            </div>
+        </div>
+
+        <!-- Sección de Grandes Ideas -->
+        <div class="bg-teal-50 border-2 border-teal-200 rounded-xl p-8 mb-12 md:mb-20">
+            <header class="text-center mb-10">
+                <h2 class="text-3xl sm:text-4xl font-bold text-teal-800 tracking-tight">GRANDES IDEAS</h2>
+                <p class="mt-3 text-lg text-teal-700 max-w-3xl mx-auto">Son las comprensiones profundas que conectan las Grandes Ideas Institucionales con la disciplina del Lenguaje.</p>
+            </header>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- GI 1 -->
+                <div class="bg-white p-6 rounded-lg border border-teal-200 flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <svg class="h-8 w-8 text-teal-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 12h-2.25M17.834 17.834l-1.591-1.591M4.5 12H2.25m1.591-5.834l1.591 1.591M5.166 17.834l1.591-1.591" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 text-lg">Pensamiento crítico basado en evidencia.</h3>
+                        <p class="text-sm text-teal-800 italic mt-1">Comprender es construir y negociar significados a partir de la evidencia y la interacción con otros.</p>
+                    </div>
+                </div>
+                <!-- GI 2 -->
+                <div class="bg-white p-6 rounded-lg border border-teal-200 flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <svg class="h-8 w-8 text-teal-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 text-lg">Autonomía y transferencia.</h3>
+                        <p class="text-sm text-teal-800 italic mt-1">Las decisiones sobre forma, género y medio determinan cómo se entiende y se siente un mensaje.</p>
+                    </div>
+                </div>
+                <!-- GI 3 -->
+                <div class="bg-white p-6 rounded-lg border border-teal-200 flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <svg class="h-8 w-8 text-teal-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-1.002 1.118-1.233l2.836-1.127a1.125 1.125 0 011.233 1.118l-1.127 2.836c-.23.557-.69.998-1.233 1.117V7.5a.75.75 0 001.5 0V6.942c.557-.23.998-.691 1.118-1.233l1.127-2.836a1.125 1.125 0 00-1.118-1.233L14.057 2.7c-.557.23-.998.69-1.118 1.233H12.6c-.557-.23-1.002-.69-1.118-1.233L8.647 1.57a1.125 1.125 0 00-1.233 1.118L8.54 5.523c.23.557.691.998 1.233 1.118V7.5a.75.75 0 001.5 0V6.558z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5h-3a.75.75 0 000 1.5h3a.75.75 0 000-1.5zM12 15a.75.75 0 01.75-.75h.008a.75.75 0 010 1.5H12.75A.75.75 0 0112 15zm.75 2.25a.75.75 0 000 1.5h.008a.75.75 0 000-1.5H12.75z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 text-lg">Excelencia disciplinar STEAM.</h3>
+                        <p class="text-sm text-teal-800 italic mt-1">El lenguaje nos permite comprender, explicar y comunicar los descubrimientos e ideas que transforman nuestro entorno.</p>
+                    </div>
+                </div>
+                <!-- GI 4 -->
+                <div class="bg-white p-6 rounded-lg border border-teal-200 flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                           <svg class="h-8 w-8 text-teal-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 100-18 9 9 0 000 18z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 9.563C9 9.252 9.252 9 9.563 9h4.874c.311 0 .563.252.563.563v4.874c0 .311-.252.563-.563.563H9.563A.562.562 0 019 14.437V9.563z" />
+                            </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 text-lg">Innovación con impacto y ética.</h3>
+                        <p class="text-sm text-teal-800 italic mt-1">Toda comunicación refleja y transforma su contexto cultural, histórico y social; por eso implica responsabilidad ética.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección de Alineación con el MEN -->
+        <div class="bg-gray-100 rounded-xl p-8 mb-12 md:mb-20">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-800 text-center mb-6">El Puente: Estándares y Lentes</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6 text-center mb-8">
+                <div class="flex-1">
+                    <h3 class="text-xl font-semibold text-gray-700">Estándares (Learning Intentions) = El "QUÉ"</h3>
+                    <p class="text-gray-600 mt-2">Son las competencias que debemos lograr. <br> **Son el destino.**</p>
+                </div>
+                <div class="text-3xl font-bold text-blue-500 mx-4">🔗</div>
+                <div class="flex-1">
+                    <h3 class="text-xl font-semibold text-gray-700">Lentes Conceptuales = El "CÓMO PENSAMOS"</h3>
+                    <p class="text-gray-600 mt-2">Son el marco de pensamiento para lograr esas competencias. <br> **Son la forma de navegar.**</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-300 pt-8 mt-8">
+                <h3 class="text-xl font-semibold text-gray-700 text-center mb-4">Ejemplo Práctico: Aplicando los Lentes</h3>
+                <p class="text-center text-gray-600 mb-6">Para lograr un estándar como **"producir un texto argumentativo"**, un estudiante debe pensar a través de los lentes:</p>
+                <div class="space-y-4 max-w-2xl mx-auto text-left">
+                    <p><span class="font-bold text-green-700">1. Brújula (Propósito y Audiencia):</span> Primero, define su propósito (¿convencer?) y su audiencia (¿compañeros, directivos?).</p>
+                    <p><span class="font-bold text-blue-700">2. Lupa (Construcción de Significado):</span> Luego, toma decisiones sobre la estructura, la evidencia que usará y las palabras más persuasivas.</p>
+                    <p><span class="font-bold text-yellow-700">3. Mapa (Contexto e Interpretación):</span> Finalmente, considera qué sabe su audiencia y qué posibles objeciones podrían tener (contraargumentos).</p>
+                </div>
+                <p class="text-center text-gray-800 mt-6 font-semibold italic">En resumen, los estándares son el destino y los lentes son la forma experta de navegar para llegar a él.</p>
+            </div>
+        </div>
+
+        <!-- Sección de Grandes Ideas -->
+        <div class="bg-teal-50 border-2 border-teal-200 rounded-xl p-8 mb-12 md:mb-20">
+            <header class="text-center mb-10">
+                <h2 class="text-3xl sm:text-4xl font-bold text-teal-800 tracking-tight">GRANDES IDEAS</h2>
+                <p class="mt-3 text-lg text-teal-700 max-w-3xl mx-auto">Son las comprensiones profundas que conectan las Grandes Ideas Institucionales con la disciplina del Lenguaje.</p>
+            </header>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- GI 1 -->
+                <div class="bg-white p-6 rounded-lg border border-teal-200 flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <svg class="h-8 w-8 text-teal-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 12h-2.25M17.834 17.834l-1.591-1.591M4.5 12H2.25m1.591-5.834l1.591 1.591M5.166 17.834l1.591-1.591" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 text-lg">Pensamiento crítico basado en evidencia.</h3>
+                        <p class="text-sm text-teal-800 italic mt-1">Comprender es construir y negociar significados a partir de la evidencia y la interacción con otros.</p>
+                    </div>
+                </div>
+                <!-- GI 2 -->
+                <div class="bg-white p-6 rounded-lg border border-teal-200 flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <svg class="h-8 w-8 text-teal-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 text-lg">Autonomía y transferencia.</h3>
+                        <p class="text-sm text-teal-800 italic mt-1">Las decisiones sobre forma, género y medio determinan cómo se entiende y se siente un mensaje.</p>
+                    </div>
+                </div>
+                <!-- GI 3 -->
+                <div class="bg-white p-6 rounded-lg border border-teal-200 flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <svg class="h-8 w-8 text-teal-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-1.002 1.118-1.233l2.836-1.127a1.125 1.125 0 011.233 1.118l-1.127 2.836c-.23.557-.69.998-1.233 1.117V7.5a.75.75 0 001.5 0V6.942c.557-.23.998-.691 1.118-1.233l1.127-2.836a1.125 1.125 0 00-1.118-1.233L14.057 2.7c-.557.23-.998.69-1.118 1.233H12.6c-.557-.23-1.002-.69-1.118-1.233L8.647 1.57a1.125 1.125 0 00-1.233 1.118L8.54 5.523c.23.557.691.998 1.233 1.118V7.5a.75.75 0 001.5 0V6.558z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5h-3a.75.75 0 000 1.5h3a.75.75 0 000-1.5zM12 15a.75.75 0 01.75-.75h.008a.75.75 0 010 1.5H12.75A.75.75 0 0112 15zm.75 2.25a.75.75 0 000 1.5h.008a.75.75 0 000-1.5H12.75z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 text-lg">Excelencia disciplinar STEAM.</h3>
+                        <p class="text-sm text-teal-800 italic mt-1">El lenguaje nos permite comprender, explicar y comunicar los descubrimientos e ideas que transforman nuestro entorno.</p>
+                    </div>
+                </div>
+                <!-- GI 4 -->
+                <div class="bg-white p-6 rounded-lg border border-teal-200 flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                           <svg class="h-8 w-8 text-teal-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 100-18 9 9 0 000 18z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 9.563C9 9.252 9.252 9 9.563 9h4.874c.311 0 .563.252.563.563v4.874c0 .311-.252.563-.563.563H9.563A.562.562 0 019 14.437V9.563z" />
+                            </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 text-lg">Innovación con impacto y ética.</h3>
+                        <p class="text-sm text-teal-800 italic mt-1">Toda comunicación refleja y transforma su contexto cultural, histórico y social; por eso implica responsabilidad ética.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- El Viaje del Estudiante: Las 4 Etapas -->
+        <div class="bg-gray-50 rounded-xl p-8 mb-12 md:mb-20">
+            <header class="text-center mb-10">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 tracking-tight">El Viaje del Estudiante: Las 4 Etapas del Pensamiento</h2>
+                <p class="mt-3 text-lg text-gray-600 max-w-3xl mx-auto">Nuestro currículo guía al estudiante a través de una progresión intencionada de pensamiento y desempeño.</p>
+            </header>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Etapa 1 -->
+                <div class="border-2 border-green-200 bg-green-50 rounded-lg p-6 text-center">
+                    <h3 class="font-bold text-green-800 text-xl mb-2">BANDA K–3</h3>
+                    <h4 class="font-semibold text-green-700 mb-3">Nivel Emergente y Descriptivo</h4>
+                    <p class="text-sm text-gray-700">El aprendizaje es concreto y expresivo. Los estudiantes usan el lenguaje para comunicar experiencias, emociones y significados personales.</p>
+                </div>
+                <!-- Etapa 2 -->
+                <div class="border-2 border-yellow-200 bg-yellow-50 rounded-lg p-6 text-center">
+                    <h3 class="font-bold text-yellow-800 text-xl mb-2">BANDA 4–5</h3>
+                    <h4 class="font-semibold text-yellow-700 mb-3">Nivel Analítico Inicial y Persuasivo</h4>
+                    <p class="text-sm text-gray-700">El pensamiento se amplía hacia el análisis. Los estudiantes comienzan a comprender cómo las decisiones lingüísticas afectan el significado y el impacto.</p>
+                </div>
+                <!-- Etapa 3 -->
+                <div class="border-2 border-blue-200 bg-blue-50 rounded-lg p-6 text-center">
+                    <h3 class="font-bold text-blue-800 text-xl mb-2">BANDA 6–9</h3>
+                    <h4 class="font-semibold text-blue-700 mb-3">Nivel Analítico y Relacional</h4>
+                    <p class="text-sm text-gray-700">El pensamiento se vuelve analítico y comparativo. Los estudiantes entienden que el lenguaje crea realidades, moldea perspectivas y comunica conocimiento.</p>
+                </div>
+                <!-- Etapa 4 -->
+                <div class="border-2 border-red-200 bg-red-50 rounded-lg p-6 text-center">
+                    <h3 class="font-bold text-red-800 text-xl mb-2">BANDA 10–11</h3>
+                    <h4 class="font-semibold text-red-700 mb-3">Nivel Abstracto y Estratégico</h4>
+                    <p class="text-sm text-gray-700">El pensamiento es abstracto, crítico y ético. Los estudiantes usan el lenguaje para analizar, liderar y transformar realidades desde la responsabilidad comunicativa.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Competencias Clave del Área -->
+        <div class="bg-purple-50 border-2 border-purple-200 rounded-xl p-8 mb-12 md:mb-20">
+            <header class="text-center mb-10">
+                <h2 class="text-3xl sm:text-4xl font-bold text-purple-800 tracking-tight">Competencias Clave del Área (C1-C5)</h2>
+                <p class="mt-3 text-lg text-purple-700 max-w-3xl mx-auto">Son las habilidades específicas y medibles que los estudiantes desarrollan al aplicar los lentes y trabajar hacia las Grandes Ideas.</p>
+            </header>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg border border-purple-200">
+                    <h3 class="font-bold text-purple-900 text-lg mb-2">🟦 C1: Género y Propósito</h3>
+                    <p class="text-sm text-gray-700">Comprende y produce textos ajustando la forma y el estilo al propósito comunicativo y a la audiencia.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg border border-purple-200">
+                    <h3 class="font-bold text-purple-900 text-lg mb-2">🟦 C2: Argumentación</h3>
+                    <p class="text-sm text-gray-700">Construye ideas propias y las sustenta con razones, evidencias y ejemplos, manteniendo una postura crítica.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg border border-purple-200">
+                    <h3 class="font-bold text-purple-900 text-lg mb-2">🟦 C3: Cohesión y Corrección</h3>
+                    <p class="text-sm text-gray-700">Utiliza con precisión los recursos lingüísticos para lograr textos claros, coherentes y adecuados al contexto.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg border border-purple-200 col-span-1 md:col-span-2 lg:col-span-1">
+                    <h3 class="font-bold text-purple-900 text-lg mb-2">🟦 C4: Recursos Multimodales</h3>
+                    <p class="text-sm text-gray-700">Integra diferentes lenguajes —texto, imagen, sonido— para comunicar mensajes complejos en medios diversos.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg border border-purple-200 col-span-1 md:col-span-2 lg:col-span-2">
+                    <h3 class="font-bold text-purple-900 text-lg mb-2">🟦 C5: Competencia Bilingüe (B2)</h3>
+                    <p class="text-sm text-gray-700">Usa el inglés como medio funcional de comunicación para comprender, producir y presentar ideas en contextos académicos, sociales y profesionales.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Sección de Metas de Transferencia (MTI) -->
+        <div class="bg-indigo-50 border-2 border-indigo-200 rounded-xl p-8 mb-12 md:mb-20">
+            <header class="text-center mb-10">
+                <h2 class="text-3xl sm:text-4xl font-bold text-indigo-800 tracking-tight">El Destino Final: Metas de Transferencia (MTI)</h2>
+                <p class="mt-3 text-lg text-indigo-700 max-w-3xl mx-auto">Son el **propósito** de todo el aprendizaje: lo que un egresado puede **HACER** con su conocimiento en el mundo real. En Lenguaje, priorizamos:</p>
+            </header>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="text-center p-4">
+                    <div class="flex justify-center mb-3">
+                        <svg class="h-12 w-12 text-indigo-500"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-indigo-900 text-lg">Investigar para Decidir</h3>
+                    <p class="text-sm text-indigo-800 mt-1">Usar el lenguaje para leer críticamente, evaluar fuentes y sintetizar información para tomar decisiones informadas.</p>
+                    <p class="text-xs text-indigo-600 mt-2 italic font-semibold">*Ej. TDC 9°: "Propuestas que Transforman"*</p>
+                </div>
+                <div class="text-center p-4">
+                    <div class="flex justify-center mb-3">
+                        <svg class="h-12 w-12 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-indigo-900 text-lg">Pensar Críticamente con Ética</h3>
+                    <p class="text-sm text-indigo-800 mt-1">Deconstruir discursos para identificar sesgos y usar nuestra propia voz de manera responsable y constructiva.</p>
+                    <p class="text-xs text-indigo-600 mt-2 italic font-semibold">*Ej. TDC 8°: "Nuestra Voz Estudiantil"*</p>
+                </div>
+                <div class="text-center p-4">
+                    <div class="flex justify-center mb-3">
+                        <svg class="h-12 w-12 text-indigo-500"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-indigo-900 text-lg">Colaborar y Liderar</h3>
+                    <p class="text-sm text-indigo-800 mt-1">Diseñar mensajes claros, persuasivos y empáticos para construir consensos y movilizar a la comunidad.</p>
+                    <p class="text-xs text-indigo-600 mt-2 italic font-semibold">*Ej. TDC 6°: "Relatos de Mi Barrio"*</p>
+                </div>
+                <div class="text-center p-4">
+                    <div class="flex justify-center mb-3">
+                       <svg class="h-12 w-12 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m4 10h4m-4 0v-2m-4 0h.01M12 12h.01M12 12v-2m0 4h.01M12 16v-2m-4-4h.01M12 8h.01M12 8V6m-4 4h.01M12 4h.01M12 4V2"/>
+                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                       </svg>
+                    </div>
+                    <h3 class="font-bold text-indigo-900 text-lg">Comunicar en dos Idiomas</h3>
+                    <p class="text-sm text-indigo-800 mt-1">Transferir ideas complejas y adaptarlas a audiencias expertas o globales, demostrando una competencia B2.</p>
+                    <p class="text-xs text-indigo-600 mt-2 italic font-semibold">*Ej. TDC 10°: "Comunicando la Innovación"*</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Progresión de Tareas Clave -->
+        <div class="mb-12 md:mb-20">
+            <header class="text-center mb-12">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 tracking-tight">Progresión de Desempeños Clave (T-11)</h2>
+                <p class="mt-3 text-lg text-gray-600 max-w-3xl mx-auto">Una vista panorámica de cómo se complejizan las tareas de transferencia a lo largo del programa.</p>
+            </header>
+            <div class="relative px-4">
+                <!-- Línea de tiempo vertical -->
+                <div class="absolute left-4 md:left-1/2 -translate-x-1/2 h-full w-0.5 bg-gray-200"></div>
+                
+                <div class="space-y-8">
+                    <!-- Grado T -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center md:flex-row-reverse">
+                            <div class="md:w-1/2">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 ml-8 md:ml-0 md:mr-8 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado T.</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Expresión personal (Oral + Visual)</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> "El libro de mis experiencias"</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <!-- Grado 1 -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 md:pr-8">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 mr-8 md:mr-0 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado 1.°</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Escritura con propósito funcional</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> Etiquetas ilustradas para reciclaje</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <!-- Grado 2 -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center md:flex-row-reverse">
+                            <div class="md:w-1/2">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 ml-8 md:ml-0 md:mr-8 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado 2.°</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Estructura narrativa básica</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> Cuento corto sobre especie de la Ciénaga</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <!-- Grado 3 -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 md:pr-8">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 mr-8 md:mr-0 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado 3.°</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Textos instructivos y secuenciales</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> Folleto para construir juguete reciclado</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <!-- Grado 4 -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center md:flex-row-reverse">
+                            <div class="md:w-1/2">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 ml-8 md:ml-0 md:mr-8 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado 4.°</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Investigación y síntesis</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> Cartelera informativa sobre ecosistema</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-green-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <!-- Grado 5 -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 md:pr-8">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 mr-8 md:mr-0 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado 5.°</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Persuasión con evidencia</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> Campaña de sensibilización (afiche + discurso)</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-green-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <!-- Grado 6 -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center md:flex-row-reverse">
+                            <div class="md:w-1/2">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 ml-8 md:ml-0 md:mr-8 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado 6.°</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Narrativa literaria y tradición oral</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> Relato breve basado en historia comunitaria</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-green-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <!-- Grado 7 -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 md:pr-8">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 mr-8 md:mr-0 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado 7.°</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Transferencia de medios y lenguajes</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> Episodio de podcast</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-green-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <!-- Grado 8 -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center md:flex-row-reverse">
+                            <div class="md:w-1/2">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 ml-8 md:ml-0 md:mr-8 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado 8.°</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Argumentación formal (Tesis + Argumentos)</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> Editorial de opinión</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-indigo-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <!-- Grado 9 -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 md:pr-8">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 mr-8 md:mr-0 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado 9.°</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Argumentación compleja (Contraargumentos)</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> *Policy brief*</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-indigo-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <!-- Grado 10 -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center md:flex-row-reverse">
+                            <div class="md:w-1/2">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 ml-8 md:ml-0 md:mr-8 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado 10.°</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Comunicación adaptativa y bilingüe</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> Artículo de divulgación (ES) + Pitch técnico (EN)</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-indigo-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <!-- Grado 11 -->
+                    <div class="relative timeline-item">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 md:pr-8">
+                                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 mr-8 md:mr-0 timeline-content">
+                                    <h3 class="text-md font-bold text-gray-800">Grado 11.°</h3>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">Foco:</span> Comunicación estratégica integral</p>
+                                    <p class="mt-1 text-xs text-gray-600"><span class="font-semibold">TDC:</span> Paquete de comunicación 360°</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2"></div>
+                        </div>
+                        <div class="absolute top-1/2 left-4 md:left-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 bg-indigo-500 rounded-full border-2 border-white"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banco de Problemas Auténticos -->
+        <div class="bg-gray-800 text-white rounded-xl p-8">
+            <header class="text-center mb-10">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">Banco de Problemas Auténticos de La Playa</h2>
+                <p class="mt-3 text-lg text-gray-300 max-w-3xl mx-auto">Desafíos reales de nuestra comunidad que sirven como punto de partida para proyectos de impacto.</p>
+            </header>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-gray-700 p-4 rounded-lg flex items-start">
+                    <span class="text-2xl font-bold text-blue-400 mr-4">1</span>
+                    <p class="text-gray-200">¿Cómo podríamos usar el periodismo para que nuestra comunidad comprenda y actúe frente a la contaminación de nuestro entorno?</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg flex items-start">
+                    <span class="text-2xl font-bold text-blue-400 mr-4">2</span>
+                    <p class="text-gray-200">¿Cómo podríamos diseñar una campaña de alfabetización mediática para proteger a nuestra comunidad de la desinformación?</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg flex items-start">
+                    <span class="text-2xl font-bold text-blue-400 mr-4">3</span>
+                    <p class="text-gray-200">¿Cómo podríamos usar la tecnología para preservar y difundir las historias de los mayores de nuestro barrio?</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg flex items-start">
+                    <span class="text-2xl font-bold text-blue-400 mr-4">4</span>
+                    <p class="text-gray-200">¿Cómo podríamos usar la comunicación creativa para transformar el clima de nuestro salón en un espacio más empático?</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg flex items-start">
+                    <span class="text-2xl font-bold text-blue-400 mr-4">5</span>
+                    <p class="text-gray-200">¿Cómo podríamos convertirnos en comunicadores de la salud para llevar información vital a nuestras familias?</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg flex items-start">
+                    <span class="text-2xl font-bold text-blue-400 mr-4">6</span>
+                    <p class="text-gray-200">¿Cómo podríamos diseñar una iniciativa que fomente el amor por la lectura más allá de las paredes del colegio?</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg flex items-start">
+                    <span class="text-2xl font-bold text-blue-400 mr-4">7</span>
+                    <p class="text-gray-200">¿Cómo podríamos diseñar una campaña tan persuasiva que logre un cambio medible en los hábitos de reciclaje del colegio?</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg flex items-start">
+                    <span class="text-2xl font-bold text-blue-400 mr-4">8</span>
+                    <p class="text-gray-200">¿Cómo podríamos crear un medio *hecho por jóvenes para jóvenes* que promueva un equilibrio saludable entre la vida digital y la real?</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+    
+  </body>
+  
+</html>
